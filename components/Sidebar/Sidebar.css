@@ -1,0 +1,28 @@
+.sidebar{
+    width: 250px;
+    padding: 20px;
+    background-color: #6A676736;
+}
+
+.item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.list div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.arrow{
+    margin-right: 20px;
+}
+
+
+
+
