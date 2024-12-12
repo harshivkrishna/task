@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Sanchez:regular,italic);
+
+.hero-container{
+    display: flex;
+    height: 100vh;
+}
+
+.Dashboard-container{
+    width: 100%;
+    padding: 20px 10px;
+}
+.Dashboard-container h1{
+    text-align: center;
+    font-weight: 400;
+}
+
+.cards-container{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: #2F82FF;
+    border-radius: 10px;
+    box-shadow: 8px 8px #9EA6A1;
+}
+
+.card h3{
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Sanchez",sans-serif;
+    text-align: center;
+}
+
+.card p{
+    color: #05386B;
+    font-size: 70px;
+    font-family: "Sanchez",sans-serif;  
+}
+
+.cards-container .card:nth-child(2){
+    background-color: #0BFF68;
+}
+
+.cards-container .card:nth-child(3){
+    background-color: #FE594E;
+}
+
+.cards-container .card:nth-child(4){
+    background-color: #FCFF6C;
+}
